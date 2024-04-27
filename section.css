@@ -1,0 +1,41 @@
+.header {
+  background-color: aquamarine;
+  height: 200px;
+  align-content: center;
+  text-align: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.introduction {
+ display: flex;
+  flex-direction: row;
+  background-color: chocolate;
+  align-items: center;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 50px;
+  width: 800px;
+  height: 180px;
+  border: 2px solid black;
+  }
+img {
+  height: 179px;
+  width: 250px;
+}
+#wrap{
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+#a{
+  order: 2;
+}
+#p{
+  order: 1;
+}
+p{
+  padding:60px;
+  display: inline;
+}
